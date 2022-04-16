@@ -1,0 +1,36 @@
+.ab__about{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-top: 70px;
+}
+.ab__btn{
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    border: solid 1px;
+    border-color: rgb(190, 185, 185);
+    border-width: 0.5px;
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.ab__btn:hover{
+    border-color: black;
+}
+.ab__hr{
+    height: 60px;
+    color: black;
+}
+.ab__icon{
+    font-size: 40px;
+}
+.ab__p{
+    width: 900px;
+    font-size: 22px;
+}

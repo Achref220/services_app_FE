@@ -1,0 +1,47 @@
+.nav__container{
+    width: 100%;
+    height: 65px;
+    background: rgba(65, 63, 82, 0.74);
+    background: linear-gradient(90deg, rgba(65, 63, 82, 0.692) 50%, rgba(150, 170, 99, 0.705) 100%, rgba(221,223,223,1) 100%, rgba(160,170,172,1) 100%, rgba(19,154,222,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+}
+.nav__left, .nav__right{
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 0 35px;
+    cursor: pointer;
+}
+.nav__right{
+    font-size: 30px;
+}
+.nav__menu{
+    position: absolute;
+    top: 100px;
+    background-color: #202020;
+    color: white;
+    width: 320px;
+    height: 494px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    user-select:none;
+}
+
+.nav__menu h3{
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}
+.nav__menu h3:hover{
+    color: rgb(196, 166, 0);
+}
+.nav__menu hr{
+    width: 90%;
+    background-color: gray;
+}

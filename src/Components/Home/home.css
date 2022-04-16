@@ -1,0 +1,107 @@
+.home__container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.home__vid{
+    width: 100% !important;
+    position: relative;
+}
+
+.home__content{
+    position: relative;
+    bottom: 600px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+    margin-bottom: 0;
+}
+.home__title{
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(65, 65, 65);
+}
+.home__hr1{
+    width: 100px;
+    position: relative;
+    top: 15px;
+    right: 160px;
+    border: solid 1px;
+}
+.home__p{
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 40px;
+}
+
+.home__btn{
+    padding: 15px 40px;
+    background-color: transparent;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    border: solid 1px grey;
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.home__btn:hover{
+    background-color: rgba(128, 128, 128, 0.637);
+    color: aliceblue;
+}
+.home__right{
+    display: flex;
+    flex-direction: column;
+}
+.home__left{
+    position: relative;
+    top: 40px;
+}
+.home__hr2{
+    height: 75px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 2px;
+    margin-top: -10px;
+}
+.home__li{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+}
+.home__li:hover{
+    color: rgb(144, 170, 71);
+}
+.home__contact{
+    background: linear-gradient(90deg, rgba(65, 63, 82, 0.692) 50%, rgba(150, 170, 99, 0.705) 100%, rgba(221,223,223,1) 100%, rgba(160,170,172,1) 100%, rgba(19,154,222,1) 100%);
+    color: white;
+    z-index: 999;
+    width: 200px;
+    height: 94px;
+    position: fixed;
+    top: 540px;
+    left: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.home__contact:hover{
+     background: linear-gradient(90deg, rgb(65, 63, 82) 50%, rgb(150, 170, 99) 100%, rgba(221,223,223,1) 100%, rgba(160,170,172,1) 100%, rgba(19,154,222,1) 100%);
+     letter-spacing: 2px;
+}
+
+.home__ic{
+    font-size: 30px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}

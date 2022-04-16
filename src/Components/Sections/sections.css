@@ -1,0 +1,39 @@
+.sec__main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    overflow: hidden;
+}
+.sec__title{
+    position: relative;
+    top: 30px;
+}
+.sec__card{
+    width: 330px;
+    height: 370px;
+    text-align: center;
+    background-color: #f0eaea;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+.sec__card:hover{
+    box-shadow: 10px 10px 8px #888888;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease;
+    color: white;
+    background: linear-gradient(90deg, rgba(65,63,82,1) 50%, rgba(150,170,99,1) 100%, rgba(221,223,223,1) 100%, rgba(160,170,172,1) 100%, rgba(19,154,222,1) 100%);
+}
+.sec__hr{
+    width: 50px;
+    margin-top: 70px;
+}
+.sec__icon{
+    position: relative;
+    font-size: 30px;
+    top: 120px;
+    border: solid 1px;
+    border-color: gray;
+    padding: 15px 10px;
+    width: 80px;
+}
